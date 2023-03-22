@@ -7,7 +7,7 @@ const { state, saveState } = useSingleFileAuthState("./login.json");
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '',
 });
 const openai = new OpenAIApi(configuration);
 
