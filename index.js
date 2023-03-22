@@ -57,7 +57,7 @@ let qr;
 let soket;
 
 const axios = require('axios');
-const { API_KEY_OPEN_AI } = { API_KEY_OPEN_AI: "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"};
+const { API_KEY_OPEN_AI } = { API_KEY_OPEN_AI: "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"};
 
 const getResponseAI = async (pesanMasuk) => {
 	const response = await ChatRequest(pesanMasuk);
